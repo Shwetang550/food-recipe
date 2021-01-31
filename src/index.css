@@ -2,3 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+.jumbotron {
+  padding: 25vh 0 !important;
+  text-align: center;
+  color: #fff;
+  background-color: #fdb12e !important;
+}
+
+.foodIcon {
+  font-size: 5rem !important;
+}
