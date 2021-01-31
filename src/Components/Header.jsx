@@ -10,9 +10,10 @@ const Header = () => {
 
             <div class="input-group w-25 mx-auto">
                 <input type="text" className="form-control" placeholder="Search your Recipe" />
-                <span className="input-group-text">
+                
+                <button className="btn input-group-text">
                     <SearchIcon />
-                </span>
+                </button>
             </div>
         </div>
     );
