@@ -1,6 +1,7 @@
 import React from 'react';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import SearchIcon from '@material-ui/icons/Search';
+import Button from '@material-ui/core/Button';
 
 const Header = () => {
     return ( 
@@ -11,9 +12,9 @@ const Header = () => {
             <div class="input-group w-25 mx-auto">
                 <input type="text" className="form-control" placeholder="Search your Recipe" />
                 
-                <button className="btn input-group-text">
+                <Button variant="contained" className="btn input-group-text">
                     <SearchIcon />
-                </button>
+                </Button>
             </div>
         </div>
     );

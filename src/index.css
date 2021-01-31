@@ -17,3 +17,7 @@
 .form-control {
   width: 5rem;
 }
+
+.btn {
+  background-color: #ffffff !important;
+}
