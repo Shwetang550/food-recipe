@@ -13,3 +13,7 @@
 .foodIcon {
   font-size: 5rem !important;
 }
+
+.form-control {
+  width: 5rem;
+}
