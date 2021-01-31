@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from './Components/Header';
+import Recipes from './Components/Recipes';
 
 const App = () => {
   return ( 
-    <h1>Hello World!</h1>
+    <>
+      <Header />
+      <Recipes />
+    </>
   );
 }
  
