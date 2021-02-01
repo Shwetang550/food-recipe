@@ -14,10 +14,10 @@
   font-size: 5rem !important;
 }
 
-.form-control {
-  width: 5rem;
-}
-
 .btn {
   background-color: #ffffff !important;
+}
+
+.card {
+  margin: 1rem auto;
 }
