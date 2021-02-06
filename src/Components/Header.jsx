@@ -20,7 +20,8 @@ const Header = () => {
         setSearch(event.target.value);
     };
 
-    const handleSearch = () => {
+    const handleSearch = (event) => {
+        event.preventDefault();
         setFood(search);
     }
 
@@ -38,13 +39,15 @@ const Header = () => {
                 <FastfoodIcon className="foodIcon" />
                 <h1 className="disply-1">Food Recipes</h1>
 
-                <div className="input-group w-25 mx-auto">
-                    <input type="text" className="form-control" placeholder="Search your Recipe" value={search} onChange={handleChange} />
                 
-                    <Button variant="contained" className="btn input-group-text" onClick={handleSearch}>
+                <form action="submit" onSubmit={handleSearch} className="input-group w-25 mx-auto">
+                    <input type="text" className="form-control" placeholder="Search your Recipe" value={search} onChange={handleChange} />
+                    
+                    <Button type="submit" variant="contained" className="btn input-group-text">    
                         <SearchIcon />
                     </Button>
-                </div>
+                </form>
+
             </div>
 
             <div className="row row-cols-1 row-cols-md-3 g-4">
