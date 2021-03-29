@@ -1,3 +1,7 @@
+
+// Developed by - Shwetang
+// Github profile - https://github.com/Shwetang550 
+
 import React from 'react';
 
 const Recipes = (props) => {
