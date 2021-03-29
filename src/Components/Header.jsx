@@ -1,3 +1,7 @@
+
+// Developed by - Shwetang
+// Github profile - https://github.com/Shwetang550 
+
 import React, { useEffect, useState } from 'react';
 import FastfoodIcon from '@material-ui/icons/Fastfood';
 import SearchIcon from '@material-ui/icons/Search';
